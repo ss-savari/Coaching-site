@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+    scroll-behavior: smooth;
+  }
+  
+  header#banner {
+    background-color: #ff0000;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+    position: sticky;
+    top: 0;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 2.5em;
+  }
+  
+  section {
+    padding: 100px;
+    text-align: center;
+    border-bottom: 1px solid #444;
+  }
+  
+  section#menu {
+    background-color: #000;
+    position: sticky;
+    top: 70px;
+  }
+  
+  .hexagon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .hexagon a {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: #ff0000;
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+    text-decoration: none;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    transition: background 0.3s ease;
+  }
+  
+  .hexagon a:hover {
+    background-color: #222;
+  }
+  
+  section#home { background-color: #111; }
+  section#pricing { background-color: #222; }
+  section#journey { background-color: #111; }
+  section#testimonies { background-color: #222; }
+  section#contact { background-color: #111; }
+  section#social { background-color: #222; }
+  
+  h2 {
+    font-size: 2em;
+  }
+  
+  p {
+    font-size: 1.2em;
+  }
+  
